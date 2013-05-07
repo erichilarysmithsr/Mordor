@@ -23,13 +23,13 @@ While developing the project, we intend to use a very modern workflow and tools,
 Though we are open to changes, the proposed stack at this point of time looks like
 
 1. NodeJS with Express on the Backend
-1. Redis for caching, as well as the primary datastore. 
-1. Client-side and Server-side layers from the One Ring. This will serve as the MVC on both the client as well as the server. 
-1. A custom unified router for handling URL routing and hashbangs. (I am going to call it the Nazgul :) )
-1. Jasmine for tests. 
-1. jQuery and Underscore for general utilities. 
-1. Handlebars for templating
-1. Bootstrap as the primary CSS framework. 
-1. RequireJS for modules on both client and the server. 
-1. Bower and Npm for package management
-1. A Grunt based workflow for development
+2. Redis for caching, as well as the primary datastore. 
+3. Client-side and Server-side layers from the One Ring. This will serve as the MVC on both the client as well as the server. 
+4. A custom unified router for handling URL routing and hashbangs. (I am going to call it the Nazgul :) )
+5. Jasmine for tests. 
+6. jQuery and Underscore for general utilities. 
+7. Handlebars for templating
+8. Bootstrap as the primary CSS framework. 
+9. RequireJS for modules on both client and the server. 
+10. Bower and Npm for package management
+11. A Grunt based workflow for development
