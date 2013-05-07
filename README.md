@@ -2,6 +2,8 @@
 
 Mordor is a self-hosted NodeJS based RSS reader that we am writing. It is intended to be a proof-of-concept app for Project One-Ring. 
 
+![Mordor](http://upload.wikimedia.org/wikipedia/en/3/3a/Sauron.jpg "One Ring to Rule Them All")
+
 ## The One Ring
 
 > One Ring to rule them all, One Ring to find them,
