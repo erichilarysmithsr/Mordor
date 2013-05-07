@@ -21,6 +21,7 @@ While developing the project, we intend to use a very modern workflow and tools,
 ## The technical stuff
 
 Though we are open to changes, the proposed stack at this point of time looks like
+
 1. NodeJS with Express on the Backend
 1. Redis for caching, as well as the primary datastore. 
 1. Client-side and Server-side layers from the One Ring. This will serve as the MVC on both the client as well as the server. 
