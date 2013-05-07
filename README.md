@@ -7,7 +7,9 @@ Mordor is a self-hosted NodeJS based RSS reader that we am writing. It is intend
 ## The One Ring
 
 > One Ring to rule them all, One Ring to find them,
+
 > One Ring to bring them all and in the darkness bind them
+
 > In the Land of Mordor where the Shadows lie.
 
 The One Ring is an integral part of project Mordor. It's aim is to enable writing of code, that can run both on the browser as well as on a NodeJS server. The One Ring gives the user the power to thus, control most of the application code from one point. Developing the One Ring will be a major part of Project Mordor. 
