@@ -1,6 +1,6 @@
 # Project Mordor
 
-Mordor is a self-hosted NodeJS based RSS reader that we am writing. It is intended to be a proof-of-concept app for Project One-Ring. 
+Mordor is a self-hosted NodeJS based RSS reader that we are writing. It is intended to be a proof-of-concept app for Project One-Ring. 
 
 ![Mordor](http://upload.wikimedia.org/wikipedia/en/3/3a/Sauron.jpg "One Ring to Rule Them All")
 
@@ -21,6 +21,12 @@ The idea behind the One Ring is to provide a platform, that is agnostic to the e
 > The forges of Mount Doom are equipped with the latest tools to help forge the One Ring. 
 
 While developing the project, we intend to use a very modern workflow and tools, that will enable us to code better and faster. We will not hesitate to experiment. For us, the process of writing and the learnings from it are just as important as the final product that comes out from our work. 
+
+## Why should you join Project Mordor?
+
+1. You get to work on a real product that you and many others might use. As you have probably heard, Google Reader is shutting down on July 1. 
+2. Mordor is an open-source project. Your contributions can reach and be built upon by so many more people. 
+3. The project has a better cutting edge than the best blades in the Middle Earth. In other words, this is really new technology that we are working on, and has hardly been ventured into in the past. 
 
 ## The technical stuff
 
