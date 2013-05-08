@@ -28,6 +28,8 @@ While developing the project, we intend to use a very modern workflow and tools,
 2. Mordor is an open-source project. Your contributions can reach and be built upon by so many more people. 
 3. The project has a better cutting edge than the best blades in the Middle Earth. In other words, this is really new technology that we are working on, and has hardly been ventured into in the past. 
 
+If you wish to contribute, email me at ameya.karve@gmail.com
+
 ## The technical stuff
 
 Though we are open to changes, the proposed stack at this point of time looks like
