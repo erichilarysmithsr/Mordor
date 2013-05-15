@@ -1,0 +1,19 @@
+{
+  "name": "Mordor",
+  "version": "0.0.0",
+  "description": "A NodeJS based self hosted RSS Reader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ameyakarve/Mordor.git"
+  },
+  "author": "ameyakarve",
+  "license": "BSD",
+  "dependencies": {
+    "requirejs": "~2.1.6",
+    "express": "~3.2.4"
+  }
+}

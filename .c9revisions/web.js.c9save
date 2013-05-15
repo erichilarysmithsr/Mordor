@@ -1,0 +1,34 @@
+{"ts":1368608071432,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1368608034981,"patch":[[{"diffs":[[1,"var requireJS = require('requirejs');"]],"start1":0,"start2":0,"length1":0,"length2":37}]],"length":37,"saved":false}
+{"ts":1368608060171,"patch":[[{"diffs":[[0,"irejs');"],[1,"\nrequirejs.config({\n    //Pass the top-level main.js/index.js require\n    //function to requirejs so that node modules\n    //are loaded relative to the top-level JS file.\n    nodeRequire: require\n});"]],"start1":29,"start2":29,"length1":8,"length2":207}]],"length":236,"saved":false}
+{"ts":1368608136131,"patch":[[{"diffs":[[0,"g({\n"],[-1,"    //Pass the top-level main.js/index.js require\n    //function to requirejs so that node modules\n    //are loaded relative to the top-level JS file.\n"],[0,"    "]],"start1":53,"start2":53,"length1":159,"length2":8}]],"length":85,"saved":false}
+{"ts":1368608148274,"patch":[[{"diffs":[[0,"\nrequire"],[-1,"js"],[1,"JS"],[0,".config("]],"start1":37,"start2":37,"length1":18,"length2":18}]],"length":85,"saved":false}
+{"ts":1368608217928,"patch":[[{"diffs":[[0,"uire\n});"],[1,"\n"]],"start1":77,"start2":77,"length1":8,"length2":9}]],"length":86,"saved":false}
+{"ts":1368608267444,"patch":[[{"diffs":[[0,"ire\n});\n"],[1,"var Router = requireJS('path-to-router');\n"]],"start1":78,"start2":78,"length1":8,"length2":50}]],"length":128,"saved":false}
+{"ts":1368608300822,"patch":[[{"diffs":[[0,"});\nvar "],[-1,"R"],[1,"r"],[0,"outer = "]],"start1":82,"start2":82,"length1":17,"length2":17}]],"length":128,"saved":false}
+{"ts":1368608303925,"patch":[[{"diffs":[[0,"});\nvar "],[-1,"r"],[1,"R"],[0,"outer = "]],"start1":82,"start2":82,"length1":17,"length2":17}]],"length":128,"saved":false}
+{"ts":1368608322191,"patch":[[{"diffs":[[0,"o-router');\n"],[1,"//Run a loop over the Router paths"]],"start1":116,"start2":116,"length1":12,"length2":46}]],"length":162,"saved":false}
+{"ts":1368608343699,"patch":[[{"diffs":[[0,"er paths"],[1," and Assign controllers?"]],"start1":154,"start2":154,"length1":8,"length2":32}]],"length":186,"saved":false}
+{"ts":1368608492176,"patch":[[{"diffs":[[0,"uirejs')"],[1,", \n    express = require('express')"],[0,";\nrequir"]],"start1":28,"start2":28,"length1":16,"length2":51}]],"length":221,"saved":false}
+{"ts":1368608497987,"patch":[[{"diffs":[[0,"});\n"],[-1,"var Router = requireJS('path-to-router');\n//Run a loop over the Router paths and Assign controllers?"]],"start1":117,"start2":117,"length1":104,"length2":4}]],"length":121,"saved":false}
+{"ts":1368608555258,"patch":[[{"diffs":[[0,"ress');\n"],[1,"var app = express();\n"],[0,"requireJ"]],"start1":65,"start2":65,"length1":16,"length2":37}]],"length":142,"saved":false}
+{"ts":1368608563531,"patch":[[{"diffs":[[0,"ress();\n"],[1,"app.configure();\n"],[0,"requireJ"]],"start1":86,"start2":86,"length1":16,"length2":33}]],"length":159,"saved":false}
+{"ts":1368608565732,"patch":[[{"diffs":[[0,"onfigure"],[1," "],[0,"();\nrequ"]],"start1":99,"start2":99,"length1":16,"length2":17}]],"length":160,"saved":false}
+{"ts":1368608566996,"patch":[[{"diffs":[[0,"onfigure"],[-1," "],[0,"();\nrequ"]],"start1":99,"start2":99,"length1":17,"length2":16}]],"length":159,"saved":false}
+{"ts":1368608604818,"patch":[[{"diffs":[[0,"nfigure("],[1,"function() {\n    app.use(express.router)   \n}"],[0,");\nrequi"]],"start1":100,"start2":100,"length1":16,"length2":61}]],"length":204,"saved":false}
+{"ts":1368608607444,"patch":[[{"diffs":[[0,".router)"],[-1,"   "],[1,";"],[0,"\n});\nreq"]],"start1":140,"start2":140,"length1":19,"length2":17}]],"length":202,"saved":false}
+{"ts":1368608672576,"patch":[[{"diffs":[[0,"require\n});\n"],[1,"app.get();"]],"start1":190,"start2":190,"length1":12,"length2":22}]],"length":212,"saved":false}
+{"ts":1368608733933,"patch":[[{"diffs":[[0,"ire\n});\n"],[1,"var router = requireJS('path-to-routes');\n"],[0,"app.get("]],"start1":194,"start2":194,"length1":16,"length2":58}]],"length":254,"saved":false}
+{"ts":1368608749601,"patch":[[{"diffs":[[0,"app.get("],[1,"'/', router.defaultRoute"],[0,");"]],"start1":244,"start2":244,"length1":10,"length2":34}]],"length":278,"saved":false}
+{"ts":1368608816776,"patch":[[{"diffs":[[0,"uter"],[-1,".defaultRoute"],[0,");"]],"start1":259,"start2":259,"length1":19,"length2":6}]],"length":265,"saved":false}
+{"ts":1368608825369,"patch":[[{"diffs":[[0,"et('"],[-1,"/"],[1,"*"],[0,"', r"]],"start1":249,"start2":249,"length1":9,"length2":9}]],"length":265,"saved":false}
+{"ts":1368608831792,"patch":[[{"diffs":[[0,"et('*', router);"],[1,"\n"]],"start1":249,"start2":249,"length1":16,"length2":17}]],"length":266,"saved":false}
+{"ts":1368608866407,"patch":[[{"diffs":[[0,"t('*', router);\n"],[1,"//Handle the different regexps in Router, pass values to the appropriate controller. A"]],"start1":250,"start2":250,"length1":16,"length2":102}]],"length":352,"saved":false}
+{"ts":1368608877657,"patch":[[{"diffs":[[0,"oller. A"],[1," client side router will need to be returned"]],"start1":344,"start2":344,"length1":8,"length2":52}]],"length":396,"saved":false}
+{"ts":1368609558066,"patch":[[{"diffs":[[0,"et('*', "],[-1,"router"],[1,"function(req,res) {\n    \n}"],[0,");\n//Han"]],"start1":249,"start2":249,"length1":22,"length2":42}]],"length":416,"saved":false}
+{"ts":1368609597001,"patch":[[{"diffs":[[0,") {\n    "],[1,"router.matchRoute('insert-current-url-variable-here');"],[0,"\n});\n//H"]],"start1":273,"start2":273,"length1":16,"length2":70}]],"length":470,"saved":false}
+{"ts":1368609617563,"patch":[[{"diffs":[[0,") {\n"],[-1,"    router.matchRoute('insert-current-url-variable-here');\n"],[0,"});\n"]],"start1":273,"start2":273,"length1":67,"length2":8}]],"length":411,"saved":false}
+{"ts":1368609629568,"patch":[[{"diffs":[[0,"*', "],[-1,"function(req,res) {\n}"],[0,");\n/"]],"start1":253,"start2":253,"length1":29,"length2":8}]],"length":390,"saved":false}
+{"ts":1368609745257,"patch":[[{"diffs":[[0,"et('*', "],[1,"routeMatcher, pageRenderer"],[0,");\n//Han"]],"start1":249,"start2":249,"length1":16,"length2":42}]],"length":416,"saved":false}
+{"ts":1368609779894,"patch":[[{"diffs":[[0,"er. "],[-1,"A client side router will need to be returned"],[1,"Middleware to be written. Store data to res.local"]],"start1":367,"start2":367,"length1":49,"length2":53}]],"length":420,"saved":false}
+{"ts":1368609899235,"patch":[[{"diffs":[[0,"es.local"],[1,"\n//In pageRenderer, figure out how to attach events with functions. This is sli low priority. To begin with, simple url matches are enough"]],"start1":412,"start2":412,"length1":8,"length2":146}]],"length":558,"saved":false}
