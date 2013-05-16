@@ -14,6 +14,9 @@
   "license": "BSD",
   "dependencies": {
     "requirejs": "~2.1.6",
-    "express": "~3.2.4"
+    "express": "~3.2.4",
+    "handlebars": "~1.0.11",
+    "handlebars-amd": "0.0.1",
+    "underscore": "~1.4.4"
   }
 }
