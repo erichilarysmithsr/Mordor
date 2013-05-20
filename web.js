@@ -4,7 +4,7 @@ var app = express();
 requireJS.config({
     nodeRequire: require
 });
-app.use(express.static('onering/synctest'));
+app.use(express.static('onering/todomvc'));
 var router = requireJS('./onering/router');
 app.get('/', function(req, res, next) {
 	res.sendfile('index.html');
