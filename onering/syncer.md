@@ -26,45 +26,45 @@ This will provide for much better code separation.
 ### View structure: 
 The default View is extended to include the following: 
 
-1. `parent`
+`parent`
 
 This is a reference to the parent View function. 
 
-2. `children`
+`children`
 
 This is an array with references of all Views, which are immediate children of this View (as in they are directly attached to some DOM Node which is a part of the View)
 
-3. `id`
+`id`
 
 The id of the View container
 
-4. `template`
+`template`
 
 The handlebars template. Could possibly be avoided
 
-5. `render`
+`render`
 
 Standard render function
 
-6. `initialize`
+`initialize`
 
 Initialize the model/collection of this View. More function calls to add children made here.
 
-7. `events`
+`events`
 
 Events to be delegated on the DOM
 
-8. `event Handlers`
+`event Handlers`
 
 These are functions that may:
 1. Modify attributes of the DOM
 2. Add children to the View
 
-9. `$el`
+`$el`
 
 Cached copy of the DOM element
 
-10. `id`
+`id`
 
 String id of the View node
 
