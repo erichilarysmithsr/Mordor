@@ -9,6 +9,20 @@ We add a hash/UID for each model and the parent view. That will be used to store
 We add a reference to the type of each model/view. A map between this type and the path to the constructor is used to correctly instantiate the model. 
 Each view keeps track of its children, and the children know their parent. 
 
+The handlebars helper for views should have the custom code. Pass the parent view. Then, do
+```javascript
+parent.addChild(this);
+this.parent = parent;
+```
+
+Similarly, on removal of a view, do 
+```javascript
+this.parent.removeChild(this);
+```
+
+### Good practice: Mixin the events to the Model/View instead of writing on the same function
+This will provide for much better code separation. 
+
 ### Any update call should be bound by the Socket syncing. 
 We extend Backbone.Model and write a custom update method that looks like:
 ``` javascript
