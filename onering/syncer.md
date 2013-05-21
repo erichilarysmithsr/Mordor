@@ -3,14 +3,14 @@
 The image shows an overall workflow. There are some specifics to be addressed here:
 
 ### Each model/view should be uniquely identifiable
-Each model and the parent view should contain a hash, that will be used to store the data to the Storage on either localStorage or the server Storage. 
+We add a hash/UID for each model and the parent view. That will be used to store the data to the Storage on either localStorage or the server Storage. 
 
 ### Parent-child relationships
-Each model/ view should also carry a reference to the model/view type. A map between this type and the path to the constructor will be present on the server in order to correctly instantiate the model. 
-Each view should be able to keep track of its children, and the children should know their parent. The hash may be used.
+We add a reference to the type of each model/view. A map between this type and the path to the constructor is used to correctly instantiate the model. 
+Each view keeps track of its children, and the children know their parent. 
 
 ### Any update call should be bound by the Socket syncing. 
-This could be writing a custom update method to Backbone.Model
+We extend Backbone.Model and write a custom update method that looks like:
 ``` javascript
 Backbone.Model.update = function(key, value) {
     sendDatatoSocket(key, value);
@@ -18,7 +18,12 @@ Backbone.Model.update = function(key, value) {
 }
 //This update method should only be used to set data when updates are received from the UI. Use Backbone.Model.set inside the event triggers.
 ```
-#### As an alternative to the above code, an extra option could be added to `Model.set`, `Model.remove` to trigger the event serverside. 
+#### Alternatively, we could add an extra option  to `Model.set`, `Model.remove` to trigger the event serverside. 
+```javascript
+model.set('key', value, {
+        sync: true
+    });
+```
 
 ### Offline
 If the connection is ever lost, then Server data is to be synced appropriately. Keep track of the last timestamp. 
