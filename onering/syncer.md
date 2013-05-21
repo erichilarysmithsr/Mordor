@@ -26,6 +26,15 @@ This will provide for much better code separation.
 ### View structure: 
 The default View is extended to include the following: 
 
+`model`
+
+This is a reference to the Views model object; Models are never independent; they are always exposed by a view. 
+
+`collection`
+
+Similar to Model
+
+
 `parent`
 
 This is a reference to the parent View function. 
