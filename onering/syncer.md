@@ -25,27 +25,35 @@ This will provide for much better code separation.
 
 ### View structure: 
 The default View is extended to include the following: 
+
 1. `parent`
 
 This is a reference to the parent View function. 
+
 2. `children`
 
 This is an array with references of all Views, which are immediate children of this View (as in they are directly attached to some DOM Node which is a part of the View)
+
 3. `id`
 
 The id of the View container
+
 4. `template`
 
 The handlebars template. Could possibly be avoided
+
 5. `render`
 
 Standard render function
+
 6. `initialize`
 
 Initialize the model/collection of this View. More function calls to add children made here.
+
 7. `events`
 
 Events to be delegated on the DOM
+
 8. `event Handlers`
 
 These are functions that may:
@@ -55,10 +63,13 @@ These are functions that may:
 9. `$el`
 
 Cached copy of the DOM element
+
 10. `id`
 
 String id of the View node
+
 ### Any update call should be bound by the Socket syncing. 
+
 We extend Backbone.Model and write a custom update method that looks like:
 ``` javascript
 Backbone.Model.update = function(key, value) {
