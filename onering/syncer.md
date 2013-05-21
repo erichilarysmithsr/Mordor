@@ -18,3 +18,7 @@ Backbone.Model.update = function(key, value) {
 }
 //This update method should only be used to set data when updates are received from the UI. Use Backbone.Model.set inside the event triggers.
 ```
+#### As an alternative to the above code, an extra option could be added to `Model.set`, `Model.remove` to trigger the event serverside. 
+
+### Offline
+If the connection is ever lost, then Server data is to be synced appropriately. Keep track of the last timestamp. 
